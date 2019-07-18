@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="app.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">  <title>Harp</title>
+</head>
+
+<body>
+
+  <section id="login">
+    <div class="login-title"><h4>Login</h4></div>
+    <div class="form">
+      <input id="name" type="text" name="name" value=""autocomplete="off" required />
+      <label for="name" class="label-name">
+        <span class="content-name">Username</span>
+      </label>
+    </div>
+    <div class="form-pass">
+      <input id="pass" type="password" name="name" value=""autocomplete="off" required />
+      <label for="name" class="label-name">
+        <span class="content-name">Password</span>
+      </label>
+    </div>
+    <div class="cta">
+      <button class="cta-succ" type="button" name="button">Continue</button>
+    </div>
+  </section>
+
+  <div class="banner" id="banner">
+    <img src="harp2.png" alt="harp">
+  </div>
+
+  <header>
+    <div class="logo" id="logo">
+      <img src="" alt="">
+      <h4 class="harp">HARP</h4>
+    </div>
+
+    <nav class="nav" id="nav">
+      <ul class=nav-links>
+        <li><a class="nav-link" href="#">Vision</a></li>
+        <li><a class="nav-link" href="#">Work</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main" id="main">
+    <section class="welcome">
+      <div class="introduction">
+        <div class="intro-text">
+          <h1>Welcome to Harp<b>.</b></h1>
+          <p class="subtext">The agency of the future</p>
+        </div>
+      <hr />
+        <div class="description">
+          <p>We design, build and deliver truly breathtaking</p>
+          <p>designs that will blow customers away.</p>
+          <p>Let's design the <b>future</b>.</p>
+        </div>
+        <div class="cta">
+          <button class="cta-select" type="button" name="button" onclick="showLogin()">Sign In <i class="right"></i></button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script type="text/javascript" src="app.js"></script>
+
+</body>
+</html>
